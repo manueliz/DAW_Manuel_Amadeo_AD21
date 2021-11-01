@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<link rel="stylesheet" href="Calculadora.css">
+<script src="Calculadora.js"></script>
+
+<title>Calculadora</title>
+<!--Numeros de calculadora-->
+<div class="Calculadora">
+    <form action="#" name="Calculadora" id="Calculadora">
+        <p class="normales">
+        <button  onclick="Agregarnumero(1)">1</button>
+        <button  onclick="Agregarnumero(2)">2</button>
+        <button  onclick="Agregarnumero(3)">3</button>
+        <button  onclick="Agregarnumero('+')">+</button>
+        </p>
+
+        <p class="normales">
+        <button  onclick="Agregarnumero(4)">4</button>
+        <button  onclick="Agregarnumero(5)">5</button>
+        <button  onclick="Agregarnumero(6)">6</button>
+        <button  onclick="Agregarnumero('-')">-</button>
+        </p>
+
+        <p class="normales">
+        <button  onclick="Agregarnumero(7)">7</button>
+        <button  onclick="Agregarnumero(8)">8</button>
+        <button  onclick="Agregarnumero(9)">9</button>
+        <button  onclick="Agregarnumero('*')">*</button>
+        </p>
+
+        <p class="normales">
+        <button  onclick="Clear()">CE</button>
+        <button  onclick="Agregarnumero(0)">0</button>
+        <button  onclick="Resultado()">=</button>
+        <button  onclick="Agregarnumero('/')">/</button>
+        </p>
+        <p class="resultado">
+        <button id="Texto" class="w3-button w3-block">0</button>
+        </p>
+        
+    </form>
+</div>
+</body>
+</html>

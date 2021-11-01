@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+body{
+    background: black;
+    padding: 3em;
+    font-family: 'Raleway', 'Arial';
+    color: #fff;
+}
+/*Botones Calculadora Parejos*/
+
+.normales button{
+    width: 120px;
+    padding: 0;
+}
+
+.Calculadora { border: 3px blue ridge; width: 500px;text-align: center;
+    background-color: red; }
+
+.resultado button { width: 450px;height: 50px; border: 2px black solid; text-align: left; 
+    position: relative; left: 0px;  padding: 0px 5px;
+    background-color: white; font-family: "courier new"; 
+    overflow: hidden;font-size: large;}
